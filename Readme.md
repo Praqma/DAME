@@ -1,4 +1,16 @@
 # Docker Arcade Machine Emulator
+
+A Docker container with a GUI that does something fun.
+
+## tl;dr;
+
+```sh
+$ ./build.sh
+$ ./start.sh
+```
+
+## Tell me more
+
 At Praqma we're a bunch of geeks.
 We like Docker as the cool platform that enables us to do DevOps, orchestration of services, continous deployment and a ton of buzzword-worthy things.
 
@@ -8,7 +20,7 @@ We also have a taste for retro games, and this inspired us to start this little 
 
 Docker is mainly known for the epicness it brings to stuff to do with servers.
 
-A lesser known feature of Docker is that you ( at least on Linux and Os X ) can run GUI applications inside of Docker containers.
+A lesser known feature of Docker is that you ( at least on Linux and OSX ) can run GUI applications inside of Docker containers.
 
 For your tech savvy people I don't need to tell you all the implications that this has in terms of privacy and security, by running for instance your browser in disposable containers. For this you can check out [Subuser](https://subuser.org/) .
 
@@ -29,6 +41,6 @@ There are a bunch of configuration that is not enabled at the moment, this is ju
 
 Sound does not work - We need to fiddle a bit more with mapping devices from the host system to Docker.
 
-Linux only support, we'd also like to be able to run on OsX, Windows is as far as we know not possible with the current version of Docker. ( Also there it will not be possible to attach to the X windows manager socket :P ).
+Tested on Linux and OSX only. We'd also like to be able to run on, but it is as far as we know not possible with the current version of Docker. ( Also there it will not be possible to attach to the X windows manager socket :P ).
 
 So all in all this is a cool proof of concept that we at least will have fun running :)
