@@ -2,7 +2,7 @@
 
 A Docker container with a GUI that does something fun.
 
-## tl;dr;
+## Quick start
 
 ```sh
 $ ./build.sh
