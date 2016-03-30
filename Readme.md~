@@ -1,0 +1,13 @@
+# Docker Arcade Machine Emulator
+At Praqma we're a bunch of geeks.
+We like Docker as the cool platform that enables us to do DevOps, orchestration of services, continous deployment and a ton of buzzword-worthy things.
+
+Generally we like Docker because it enables us to to do awesome things.
+
+We also have a taste for retro games, and this inspired us to start this little proof of concept.
+
+Docker is mainly known for the epicness it brings to stuff to do with servers.
+
+A lesser known feature of Docker is that you ( at least on Linux and Os X ) can run GUI applications inside of Docker containers.
+
+For your tech savvy people I don't need to tell you all the implications that this has in terms of privacy and security, by running for instance your browser in disposable containers. For this you can check out [Subuser](https://subuser.org/)
