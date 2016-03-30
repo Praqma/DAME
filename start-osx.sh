@@ -1,5 +1,10 @@
 #!/bin/bash
 
+## Remember to start socat first in another terminal
+
+## Start XQuartz to show windows
+open -a XQuartz
+ 
 ## On OSX you need to set the DISPLAY variable to the IP of your vboxnet0 network interface
 docker run --privileged \
            --net=host \
