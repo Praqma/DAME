@@ -36,6 +36,14 @@ This will run MAME with access to the roms, and you can play any of the games th
 We do not take a stance on the distribution of ROMs and of course encourage you to respect any and all copyrights.
 We just want to enable you to play the games of the past.
 
+## Features
+
+| Feature | Linux | Mac | Windows |
+-----------------------------------
+| TMNT intro screen is shown | Yes | Yes       | No |
+| TMNT can be played         | Yes | Not quite | No |
+| ...with sound              | Yes | No        | No |
+
 ## Further work
 There are a bunch of configuration that is not enabled at the moment, this is just the very initial MVP.
 
