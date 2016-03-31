@@ -19,9 +19,10 @@ then
   open -a XQuartz
 
   ## On OSX you need to set the DISPLAY variable to the IP of your vboxnet0 network interface
+  vboxnet0_ip=$(ifconfig vboxnet0 | grep -Eo 'inet [0-9]+.[0-9]+.[0-9]+.[0-9]+' | cut -d " " -f 2)
   docker run --privileged \
              --net=host \
-             -e DISPLAY=192.168.99.1:0 \
+             -e DISPLAY=$vboxnet0_ip:0 \
              -v /dev/snd:/dev/snd \
              -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
              praqma/dame /usr/games/mame
