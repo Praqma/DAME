@@ -41,6 +41,6 @@ There are a bunch of configuration that is not enabled at the moment, this is ju
 
 Sound does not work - We need to fiddle a bit more with mapping devices from the host system to Docker.
 
-Tested on Linux and OSX only. We'd also like to be able to run on, but it is as far as we know not possible with the current version of Docker. ( Also there it will not be possible to attach to the X windows manager socket :P ).
+Tested on Linux and OSX only. We'd also like to be able to run on Windows, but it is as far as we know not possible with the current version of Docker. ( Also there it will not be possible to attach to the X windows manager socket :P ).
 
 So all in all this is a cool proof of concept that we at least will have fun running :)
