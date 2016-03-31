@@ -38,11 +38,11 @@ We just want to enable you to play the games of the past.
 
 ## Features
 
-| Feature | Linux | Mac | Windows |
------------------------------------
-| TMNT intro screen is shown | Yes | Yes       | No |
-| TMNT can be played         | Yes | Not quite | No |
-| ...with sound              | Yes | No        | No |
+| Feature                    | Linux | Mac       | Windows |
+| -------                    | ----- | ------    | ------- |
+| TMNT intro screen is shown | Yes   | Yes       | No      |
+| TMNT can be played         | Yes   | Not quite | No      |
+| ...with sound              | Yes   | No        | No      |
 
 ## Further work
 There are a bunch of configuration that is not enabled at the moment, this is just the very initial MVP.
