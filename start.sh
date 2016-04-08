@@ -4,12 +4,13 @@ kernel_name=$(uname -s)
 
 if [ "$kernel_name" == "Linux" ]
 then
-  docker run --privileged \
+  docker run --rm --privileged -it \
              --net=host \
              -e DISPLAY \
-             -v /dev/snd:/dev/snd \
+             -v /dev/snd/:/dev/snd/ \
+             -v /dev/shm/:/dev/shm/ \
              -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
-             praqma/dame /usr/games/mame
+             praqma/dame:latest /usr/games/mame
 
 elif [ "$kernel_name" == "Darwin" ]
 then
