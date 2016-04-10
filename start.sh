@@ -10,6 +10,7 @@ then
              -v /dev/snd/:/dev/snd/ \
              -v /dev/shm/:/dev/shm/ \
              -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
+             -v=/dev/dri:/dev/dri:rw \
              praqma/dame:latest /usr/games/mame
 
 elif [ "$kernel_name" == "Darwin" ]
