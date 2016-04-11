@@ -1,5 +1,5 @@
 FROM debian:jessie
-RUN useradd -ms /bin/bash gamer
+RUN useradd -u 1000 -ms /bin/bash gamer
 RUN echo "deb http://httpredir.debian.org/debian jessie non-free" >> /etc/apt/sources.list
 RUN apt-get update -y
 RUN apt-get install -y mesa-utils xserver-xorg-video-all mame alsa-base alsa-utils -y
