@@ -1,3 +1,4 @@
 #!/bin/bash
-docker build -t praqma/dame .
+./selectSound.sh
+docker build -t praqma/dame:latest .
 
