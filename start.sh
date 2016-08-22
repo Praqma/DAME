@@ -7,6 +7,10 @@ then
   docker run --rm --privileged -it \
              --net=host \
              -e DISPLAY \
+    -v /etc/machine-id:/etc/machine-id \
+    -v /run/user/1000/pulse:/run/user/1000/pulse \
+    -v /var/lib/dbus:/var/lib/dbus \
+    -v ~/.pulse:/home/gamer/.pulse \
              -v /dev/snd/:/dev/snd/ \
              -v /dev/shm/:/dev/shm/ \
              -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
