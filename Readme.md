@@ -30,7 +30,7 @@ MAME is the Multiple Arcade Machine Emulator, that allows you to run games from 
 
 So we present to you DAME ( Dockerized Arcade Machine Emulator ).
 
-Clone this repository, put roms in `roms/` and run `start.sh` .
+Clone this repository, put roms in `roms/` and run `build.sh` and `start.sh` .
 This will run MAME with access to the roms, and you can play any of the games that are present.
 
 We do not take a stance on the distribution of ROMs and of course encourage you to respect any and all copyrights.
