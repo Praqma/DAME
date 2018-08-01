@@ -1,3 +1,7 @@
+---
+maintainer: hoeghh
+---
+
 # Dockerized Arcade Machine Emulator
 
 A Docker container with a GUI that does something fun.
